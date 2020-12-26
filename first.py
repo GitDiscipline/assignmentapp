@@ -12,7 +12,7 @@ st.text(" Here you can find the anaylsis of co2 emission data from 2005 to 2014 
 
 
 
-a= pd.read_csv(r'F:\co2.csv')
+a= pd.read_csv("co2.csv")
 
 st.dataframe(a)
 
