@@ -16,7 +16,6 @@ a= pd.read_csv("co2.csv")
 
 st.dataframe(a)
 
-a=pd.read_csv(r'F:\co2.csv')
 a1= a.drop(['Transport Total(kt CO2','N. LULUCF Net Emissions kt CO2','Grand Total(kt CO2',
             'Population 000s mid-year estimate',
             'Per Capita Emissions t'],axis=1)
